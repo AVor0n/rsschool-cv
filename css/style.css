@@ -1,0 +1,148 @@
+/**Common styles start*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 20px;
+}
+
+/**Common styles end*/
+
+/**header styles start*/
+
+.header {
+    width: 100%;
+    background-color: blue;
+}
+.header__wrap{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header__photo{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;    
+}
+.header__title{
+    font-size: 60px;
+    color: grey;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.header__subtitle {
+    font-size: 100px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.header__desc {
+    font-size: 40px;
+    color: gray;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+/**header styles end*/
+
+/**nav styles start*/
+
+.menu__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu__list-item{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.menu__link{
+    color: gray;
+    font-size: 23px;
+    transition: all 0.4s;
+}
+.menu__link:hover{
+    color: white;
+    font-size: 27px;
+}
+/**nav styles end*/
+
+/**main styles start*/
+
+.main{
+    background-color:whitesmoke;
+    width: 100%;
+    padding-top: 40px;
+}
+.section{
+    padding-bottom: 40px;
+}
+.section__title{
+    color: blue;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.section__desc{
+    color: gray;
+    font-size: 23px;
+    padding-left: 50px;
+}
+.section__list-item{
+    margin-bottom: 20px;
+}
+.section__list-item {
+    margin-bottom: 20px;
+}
+.section__nested-list{
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.sample_code{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(5, 17, 29);
+    border: solid gray 2px;
+    border-radius: 10px;
+}
+code{
+    color: gray;
+    font-size: 20px;
+    font-family: monospace;
+}
+/**main styles end*/
+
+/**footer styles start*/
+
+.footer{
+    width: 100%;
+    background-color: blue;
+}
+.footer__text{
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 2px;
+}
+/**footer styles end*/
