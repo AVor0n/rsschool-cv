@@ -5,18 +5,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>CV</title>
 </head>
 
 <body>
     <header class="header">
+        <div class="wrapper">
 
+            <div class="header__wrap">
+                <img src="img/cats.jpg" alt="" class="header__photo">
+                <div class="header_descript">
+                    <h1 class="header__title">Curriculum vitae</h1>
+                    <h2 class="header__subtitle">Voronin Andrey</h2>
+                    <p class="header__desc">RSShool student</p>
+                </div>
+            </div>
+            <hr>
+            <nav class="header__menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a href="#About_me" class="menu__link">About me</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#Education" class="menu__link">Education</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#Scills" class="menu__link">Scills</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#Sample_code" class="menu__link">Sample code</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#Work_expirience" class="menu__link">Work Expirience</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#Contacts" class="menu__link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="main">
+        <div class="wrapper">
+            <section class="section">
+                <h3 class="section__title" id="About_me">About me</h3>
+                <p class="section__desc">
+                    I am a student of the Samara State Aerospace University, Faculty of Electronics and Instrumentation.
+                </p>
+            </section>
 
+            <section class="section">
+                <h3 class="section__title" id="Education">Education</h3>
+                <ul class="section__desc section__list">
+                    <li class="section__list-item">2016-2021 SSAU</li>
+                    <li class="section__list-item">Online courses:
+                        <ul class="courses section__nested-list">
+                            <li class="section__list-item"><a href="https://www.freecodecamp.org/avor0n"
+                                    class="courses-link">freecodecamp</a></li>
+                            <li class="section__list-item"><a href="https://ru.hexlet.io/u/avor0n"
+                                    class="courses-link">hexlet</a></li>
+                            <li class="section__list-item"><a href="https://htmlacademy.ru/profile/id1747985"
+                                    class="courses-link">htmlacademy</a></li>
+                            <li class="section__list-item"><a href="https://stepik.org/users/107936677"
+                                    class="courses-link">stepic</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h3 class="section__title" id="English_level">English level</h3>
+                <p class="section__desc">
+                    Probably A1, but it’s not certain.
+                </p>
+            </section>
+
+            <section class="section">
+                <h3 class="section__title" id="Scills">Scills</h3>
+                <ul class="section__desc section__list">
+                    <li class="section__list-item">HTML5</li>
+                    <li class="section__list-item">CSS3</li>
+                    <li class="section__list-item">JavaScript</li>
+                    <li class="section__list-item">C#</li>
+                    <li class="section__list-item">Git</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h3 class="section__title" id="Work_expirience">Work Expirience</h3>
+                <ul class="section__desc section__list">
+                    <li class="section__list-item"><a href="https://www.codewars.com/users/AVor0n-rss"
+                            class="work-link">CodeWars</a>
+                    </li>
+                    <li class="section__list-item"><a href="https://github.com/AVor0n" class="work-link">GitHub</a></li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h3 class="section__title" id="Sample_code">Sample code</h3>
+                <div class="sample_code">
+                    <pre>
+                        <code>
+                            module.exports = function towelSort(matrix = []) {
+                                if (matrix[0] === undefined)
+                                return [];
+                                
+                                matrix = matrix.map((el, ind) => (ind % 2) ? el.reverse() : el);
+                                
+                                return matrix.toString().split(',').map(e => +e);
+                            }
+                        </code>
+                    </pre>
+                </div>
+            </section>
+
+            <section class="section">
+                <h3 class="section__title" id="Contacts">Contacts</h3>
+                <ul class="section__desc section__list">
+                    <li class="section__list-item">Tel.: +7 (846) 937 796-31-21</li>
+                    <li class="section__list-item">E-mail: AVor0n@ya.ru</li>
+                    <li class="section__list-item">Telegram: @AVor0n</li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer class="footer">
-
+        <div class="wrapper">
+            <p class="footer__text">
+                created with the support of tea&#9749; and &#129390;biscuits
+            </p>
+        </div>
     </footer>
 </body>
 
