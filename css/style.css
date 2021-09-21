@@ -194,13 +194,13 @@ i {
 }
 
 .skills__wrapper {
-    padding: 15px 30px;
+    padding: 0 30px;
 }
 
 .skills__list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .skills__list-item {
@@ -398,6 +398,10 @@ pre {
         border-radius: 20px 20px 0 0;
     }
 
+    .skills__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .projects__containers {
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -448,5 +452,11 @@ pre {
         cursor: pointer;
         display: block;
         transition: 0.5s;
+    }
+}
+
+@media (max-width: 400px) {
+    .skills__list {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
