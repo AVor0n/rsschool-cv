@@ -32,6 +32,7 @@ html {
     font-family: Arial,
         Helvetica,
         sans-serif;
+    scroll-margin-top: 150px;
 }
 
 .section__wrapper {
@@ -82,6 +83,8 @@ i {
 
 .header {
     background-color: var(--color-accent);
+    position: sticky;
+    top: 0;
 }
 
 .header__wrapper {
@@ -110,6 +113,7 @@ i {
     background-repeat: no-repeat;
     display: none;
 }
+
 
 .nav__list {
     display: flex;
@@ -394,6 +398,10 @@ pre {
 }
 
 @media (max-width: 700px) {
+    .section {
+        scroll-margin-top: 117px;
+    }
+
     .contacts__wrapper {
         grid-template-columns: 1fr;
         justify-items: center;
@@ -466,5 +474,9 @@ pre {
 @media (max-width: 400px) {
     .skills__list {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section {
+        scroll-margin-top: 154px;
     }
 }
