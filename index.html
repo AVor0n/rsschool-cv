@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voronin Andrey CV</title>
-    <link rel="icon" href="img/cv-screen.png">
+    <link rel="icon" href="img/fav-icon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -47,7 +47,9 @@
     <main>
         <section class="section contacts" id="contacts">
             <div class="section__wrapper contacts__wrapper">
-                <img class="avatar" src="img/Photo.jpg" alt="avatar">
+                <figure class="avatar__fig">
+                    <img class="avatar" src="img/Photo.jpg" alt="avatar">
+                </figure>
                 <div class="contacts__container">
                     <h2 class="contacts__header">Contacts</h2>
                     <ul class="contacts__list">
@@ -118,15 +120,16 @@
                             keyboard.</p>
                     </div>
                     <div class="project__ref">
-                        <a href="https://github.com/AVor0n/virtual-piano" target="_blank"><img src="img/vp.png"
-                                alt="museum" class="project__img"></a>
+                        <a class="project__link" href="https://github.com/AVor0n/virtual-piano" target="_blank"><img
+                                src="img/vp.png" alt="museum" class="project__img"></a>
                     </div>
-                    <div class="projects__descr">
+                    <div class="projects__tech">
                         <h4 class="project__title">Technologies</h4>
                         <ul class="technologies__list">
-                            <li><i class="fa fa-check-square"></i> HTML & CSS</li>
-                            <li><i class="fa fa-check-square"></i> JavaScript, work with the DOM</li>
-                            <li><i class="fa fa-check-square"></i> Browser events</li>
+                            <li class="technologies__list-item"><i class="fas fa-cogs"></i> HTML & CSS</li>
+                            <li class="technologies__list-item"><i class="fas fa-cogs"></i> JavaScript, work with the
+                                DOM</li>
+                            <li class="technologies__list-item"><i class="fas fa-cogs"></i> Browser events</li>
                         </ul>
                     </div>
                 </div>
@@ -139,15 +142,16 @@
                             a third party API.</p>
                     </div>
                     <div class="project__ref">
-                        <a href="https://codepen.io/One0/full/jOmoXRP" target="_blank"><img src="img/rqm.png"
-                                alt="slider" class="project__img"></a>
+                        <a class="project__link" href="https://codepen.io/One0/full/jOmoXRP" target="_blank"><img
+                                src="img/rqm.png" alt="slider" class="project__img"></a>
                     </div>
-                    <div class="projects__descr">
+                    <div class="projects__tech">
                         <h4 class="project__title">Technologies</h4>
                         <ul class="technologies__list">
-                            <li><i class="fa fa-check-square"></i> HTML layout and CSS styles</li>
-                            <li><i class="fa fa-check-square"></i> CSS transformations</li>
-                            <li><i class="fa fa-check-square"></i> Work with API</li>
+                            <li class="technologies__list-item"><i class="fas fa-cogs"></i> HTML layout and CSS styles
+                            </li>
+                            <li class="technologies__list-item"><i class="fas fa-cogs"></i> CSS transformations</li>
+                            <li class="technologies__list-item"><i class="fas fa-cogs"></i> Work with API</li>
                         </ul>
                     </div>
                 </div>
@@ -161,15 +165,18 @@
                         </p>
                     </div>
                     <div class="project__ref">
-                        <a href="https://jsfiddle.net/AVor0n/3yge7w5p/1/" target="_blank"><img src="img/pb.png"
-                                alt="player" class="project__img"></a>
+                        <a class="project__link" href="https://jsfiddle.net/AVor0n/3yge7w5p/1/" target="_blank"><img
+                                src="img/pb.png" alt="player" class="project__img"></a>
                     </div>
-                    <div class="projects__descr">
+                    <div class="projects__tech">
                         <h4 class="project__title">Technologies</h4>
                         <ul class="technologies__list">
-                            <li><i class="fa fa-check-square"></i> HTML layout and CSS styles</li>
-                            <li><i class="fa fa-check-square"></i> JavaScript, work with the DOM</li>
-                            <li><i class="fa fa-check-square"></i> Сreating DOM-elements with JS</li>
+                            <li class="technologies__list-item"><i class="fas fa-cogs"></i> HTML layout and CSS styles
+                            </li>
+                            <li class="technologies__list-item"><i class="fas fa-cogs"></i> JavaScript, work with the
+                                DOM</li>
+                            <li class="technologies__list-item"><i class="fas fa-cogs"></i> Сreating DOM-elements with
+                                JS</li>
                         </ul>
                     </div>
                 </div>
@@ -228,8 +235,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
     <footer class="footer">
         <div class="footer__wrapper">
             <ul class="footer__menu">
-                <!-- TODO -->
-                <li><a href="https://github.com/AVor0n/rsschool-cv/pull/3"><img class="git-logo" src="img/github.png"
+                <li><a href="https://github.com/AVor0n/rsschool-cv/pull/4"><img class="git-logo" src="img/github.png"
                             alt="logo Git"></a>
                 </li>
                 <li><time datetime="2021-09-21">2021</time></li>
