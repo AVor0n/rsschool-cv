@@ -140,6 +140,10 @@ i {
     color: var(--color-light);
 }
 
+.avatar__fig {
+    margin: 0;
+}
+
 .avatar {
     width: 250px;
     height: 250px;
