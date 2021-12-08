@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Voronin Andrey CV</title>
     <link rel="icon" href="img/fav-icon.png" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -19,6 +20,9 @@
           <ul class="nav__list">
             <li class="nav__list-item">
               <a class="nav__link" href="#contacts">Контакты</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#contacts">О себе</a>
             </li>
             <li class="nav__list-item">
               <a class="nav__link" href="#education">Образование</a>
@@ -37,9 +41,7 @@
     <main>
       <section class="section contacts" id="contacts">
         <div class="section__wrapper contacts__wrapper">
-          <figure class="avatar__fig">
-            <img class="avatar" src="img/Photo.jpg" alt="avatar" />
-          </figure>
+          <img class="avatar" src="img/ava.png" alt="avatar" />
           <div class="contacts__container">
             <h2 class="contacts__header">Контакты</h2>
             <ul class="contacts__list">
@@ -73,6 +75,10 @@
             </ul>
           </div>
         </div>
+      </section>
+      <section class="section education" id="education">
+        <h2 class="section__title">О себе</h2>
+        <div class="section__wrapper">Когда-нибудь здесь будет супер текст</div>
       </section>
       <section class="section education" id="education">
         <h2 class="section__title">Образование</h2>
@@ -111,7 +117,7 @@
               <b class="text education__date">2021</b>
               <i class="fab fa-free-code-camp"></i>
               <a
-                class="text"
+                class="text text-link"
                 href="https://www.freecodecamp.org/certification/avor0n/responsive-web-design"
               >
                 FreeCodeCamp / Responsive Web Design</a
@@ -121,7 +127,7 @@
               <b class="text education__date">2021</b>
               <i class="fab fa-free-code-camp"></i>
               <a
-                class="text"
+                class="text text-link"
                 href="https://www.freecodecamp.org/certification/avor0n/javascript-algorithms-and-data-structures"
               >
                 FreeCodeCamp / JavaScript Algorithms and Data Structures</a
@@ -134,131 +140,186 @@
       <section class="section skills" id="skills">
         <h2 class="section__title">Навыки</h2>
         <div class="section__wrapper skills__wrapper">
+          <h3 class="section__subtitle">Технологии, с которыми имел дело:</h3>
+
           <ul class="section__list skills__list">
             <li class="skills__list-item">
-              <img class="skill__logo" src="./img/logo-html.svg" alt="html logo" /></i><span class="text"> HTML5</span>
+              <img class="skill__logo" src="./img/logo-html.svg" alt="html logo" />
+              <span class="text"> HTML5</span>
             </li>
             <li class="skills__list-item">
-              <img class="skill__logo" src="./img/logo-css.svg" alt="css logo" /></i><span class="text"> CSS3</span>
+              <img class="skill__logo" src="./img/logo-css.svg" alt="css logo" />
+              <span class="text"> CSS3</span>
             </li>
             <li class="skills__list-item">
-              <img class="skill__logo" src="./img/logo-js.svg" alt="js logo" /></i><span class="text"> JavaScript</span>
+              <img class="skill__logo" src="./img/logo-js.svg" alt="js logo" />
+              <span class="text"> JavaScript</span>
             </li>
             <li class="skills__list-item">
-              <img class="skill__logo" src="./img/logo-ts.svg" alt="typescript logo" /></i><span class="text"> TypeScript</span>
+              <img class="skill__logo" src="./img/logo-ts.svg" alt="typescript logo" />
+              <span class="text"> TypeScript</span>
             </li>
             <li class="skills__list-item">
-              <img class="skill__logo" src="./img/logo-webpack.svg" alt="webpack logo" /></i><span class="text"> Webpack</span>
+              <img class="skill__logo" src="./img/logo-webpack.svg" alt="webpack logo" />
+              <span class="text"> Webpack</span>
             </li>
             <li class="skills__list-item">
-              <img class="skill__logo" src="./img/logo-react.svg" alt="react logo" /></i><span class="text"> React</span>
+              <img class="skill__logo" src="./img/logo-react.svg" alt="react logo" />
+              <span class="text"> React</span>
             </li>
             <li class="skills__list-item">
-              <img class="skill__logo" src="./img/logo-git.svg" alt="git logo" /></i><span class="text"> Git</span>
+              <img class="skill__logo" src="./img/logo-git.svg" alt="git logo" />
+              <span class="text"> Git</span>
             </li>
             <li class="skills__list-item">
-              <img class="skill__logo" src="./img/logo-sass.svg" alt="sass logo" /><span class="text"> Sass</span>
+              <img class="skill__logo" src="./img/logo-sass.svg" alt="sass logo" />
+              <span class="text"> Sass</span>
             </li>
             <li class="skills__list-item">
-              <img class="skill__logo" src="./img/logo-postcss.svg" alt="postcss logo" /><span class="text"> PostCSS</span>
+              <img class="skill__logo" src="./img/logo-postcss.svg" alt="postcss logo" />
+              <span class="text"> PostCSS</span>
             </li>
             <li class="skills__list-item">
-              <img class="skill__logo" src="./img/logo-csharp.svg" alt="c sharp logo" /></i><span class="text"> C#</span>
+              <img class="skill__logo" src="./img/logo-csharp.svg" alt="c sharp logo" />
+              <span class="text"> C#</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-vite.svg" alt="vite logo" />
+              <span class="text"> Vite</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-nodejs.svg" alt="nodejs logo" />
+              <span class="text"> NodeJS</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-prettier.svg" alt="prettier logo" />
+              <span class="text"> Prettier</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-eslint.svg" alt="eslint logo" />
+              <span class="text"> ESlint</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-stylelint.svg" alt="stylelint logo" />
+              <span class="text"> Stylelint</span>
             </li>
           </ul>
         </div>
       </section>
 
       <section class="section projects" id="projects">
-        <h2 class="section__title">Опыт работы</h2>
+        <h2 class="section__title">Опыт</h2>
         <div class="section__wrapper">
-          <div class="projects__containers">
-            <div class="projects__descr">
-              <h3 class="project__title">Virtual Piano</h3>
-              <p class="section__text">
-                One of the tasks of the 'RSSchool 2021q1' Interactive piano. Control is carried out
-                both with the mouse and from the keyboard.
-              </p>
+          <div class="project__wrapper">
+            <a href="https://github.com/AVor0n/pomodoro-timer" target="_black"
+              ><h4 class="project__title">Помидорковый таймер</h4></a
+            >
+            <p class="project__descr">
+              Таймер, работающий по
+              <a href="https://ru.wikipedia.org/wiki/Метод_помидора" class="">методу помидора.</a>
+              <br />Отсчитывает время работы, после чего переключается и отсчитывает время перерыва.
+              <br />Оба интервала настраиваются.
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-html.svg" alt="stylelint logo" />
+                <img class="skill__logo" src="./img/logo-css.svg" alt="stylelint logo" />
+                <img class="skill__logo" src="./img/logo-ts.svg" alt="stylelint logo" />
+                <img class="skill__logo" src="./img/logo-react.svg" alt="stylelint logo" />
+                <img class="skill__logo" src="./img/logo-vite.svg" alt="stylelint logo" />
+              </div>
             </div>
-            <div class="project__ref">
-              <a
-                class="project__link"
-                href="https://github.com/AVor0n/virtual-piano"
-                target="_blank"
-                ><img src="img/vp.png" alt="museum" class="project__img"
-              /></a>
-            </div>
-            <div class="projects__tech">
-              <h4 class="project__title">Technologies</h4>
-              <ul class="technologies__list">
-                <li class="technologies__list-item"><i class="fas fa-cogs"></i> HTML & CSS</li>
-                <li class="technologies__list-item">
-                  <i class="fas fa-cogs"></i> JavaScript, work with the DOM
-                </li>
-                <li class="technologies__list-item"><i class="fas fa-cogs"></i> Browser events</li>
-              </ul>
-            </div>
+            <a class="project__img" href="https://avor0n.github.io/pomodoro-timer/react/"
+              ><img src="img/pomodoro-timer.png" alt="museum" class="project__img"
+            /></a>
           </div>
         </div>
         <div class="section__wrapper">
-          <div class="projects__containers">
-            <div class="projects__descr">
-              <h3 class="project__title">Random Quote Machine</h3>
-              <p class="section__text">
-                An application that generates random quotes. Quotes are accepted using a third party
-                API.
-              </p>
+          <div class="project__wrapper">
+            <a href="https://github.com/AVor0n/ciphering-cli-tool" target="_blank"
+              ><h4 class="project__title">Консольный шифровальщик</h4></a
+            >
+            <p class="project__descr">
+              Консольная утилита шифрующая/дешифрующая текст.<br />Ввод\вывод из файла или через
+              консоль.<br />Шифры: Цезаря, ROT-8, Атбаш.
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-js.svg" alt="stylelint logo" />
+                <img class="skill__logo" src="./img/logo-nodejs.svg" alt="stylelint logo" />
+              </div>
             </div>
-            <div class="project__ref">
-              <a class="project__link" href="https://codepen.io/One0/full/jOmoXRP" target="_blank"
-                ><img src="img/rqm.png" alt="slider" class="project__img"
-              /></a>
-            </div>
-            <div class="projects__tech">
-              <h4 class="project__title">Technologies</h4>
-              <ul class="technologies__list">
-                <li class="technologies__list-item">
-                  <i class="fas fa-cogs"></i> HTML layout and CSS styles
-                </li>
-                <li class="technologies__list-item">
-                  <i class="fas fa-cogs"></i> CSS transformations
-                </li>
-                <li class="technologies__list-item"><i class="fas fa-cogs"></i> Work with API</li>
-              </ul>
-            </div>
+            <img src="img/ciphering-CLI-tool.png" alt="museum" class="project__img" />
           </div>
         </div>
         <div class="section__wrapper">
-          <div class="projects__containers">
-            <div class="projects__descr">
-              <h3 class="project__title">Drawing Board</h3>
-              <p class="section__text">
-                Drawing board. Displays a multi-colored trace from the mouse cursor. And removes it
-                after a while.
-              </p>
+          <div class="project__wrapper">
+            <a href="https://github.com/AVor0n/virtual-piano" target="_blank"
+              ><h4 class="project__title">Виртуальное пианино</h4></a
+            >
+            <p class="project__descr">
+              Пианино.<br />
+              Управляется как мышью, так и клавиатурой.<br />
+              Полноэкранный режим.<br />
+              Переключение между отображением нот и букв.
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-html.svg" alt="stylelint logo" />
+                <img class="skill__logo" src="./img/logo-css.svg" alt="stylelint logo" />
+                <img class="skill__logo" src="./img/logo-js.svg" alt="stylelint logo" />
+              </div>
             </div>
-            <div class="project__ref">
-              <a
-                class="project__link"
-                href="https://jsfiddle.net/AVor0n/3yge7w5p/1/"
-                target="_blank"
-                ><img src="img/pb.png" alt="player" class="project__img"
-              /></a>
+            <a href="https://avor0n.github.io/virtual-piano/" class="project__img"
+              ><img src="img/vp.png" alt="museum" class="project__img" />
+            </a>
+          </div>
+        </div>
+        <div class="section__wrapper">
+          <div class="project__wrapper">
+            <a href="https://github.com/AVor0n/cssMemSlider/tree/gh-pages" target="_blank"
+              ><h4 class="project__title">Слайдер на CSS</h4>
+            </a>
+            <p class="project__descr">
+              Задание на творческое мышление.<br />
+              Адаптивный слайдер, реализованный без исполльзования JS.<br />
+              Только HTML и CSS.<br />
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-html.svg" alt="stylelint logo" />
+                <img class="skill__logo" src="./img/logo-css.svg" alt="stylelint logo" />
+              </div>
             </div>
-            <div class="projects__tech">
-              <h4 class="project__title">Technologies</h4>
-              <ul class="technologies__list">
-                <li class="technologies__list-item">
-                  <i class="fas fa-cogs"></i> HTML layout and CSS styles
-                </li>
-                <li class="technologies__list-item">
-                  <i class="fas fa-cogs"></i> JavaScript, work with the DOM
-                </li>
-                <li class="technologies__list-item">
-                  <i class="fas fa-cogs"></i> Сreating DOM-elements with JS
-                </li>
-              </ul>
+            <a href="https://avor0n.github.io/cssMemSlider/cssMemSlider/" class="project__img"
+              ><img src="img/cssSlider.png" alt="museum" class="project__img" />
+            </a>
+          </div>
+        </div>
+
+        <div class="section__wrapper">
+          <div class="project__wrapper">
+            <a href="https://codepen.io/One0/pen/jOmoXRP" target="_blank"
+              ><h4 class="project__title">Генератор цитат</h4></a
+            >
+            <p class="project__descr">
+              Работа со сторонним API, генерирующим цитаты на различные темы.
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-html.svg" alt="stylelint logo" />
+                <img class="skill__logo" src="./img/logo-css.svg" alt="stylelint logo" />
+                <img class="skill__logo" src="./img/logo-js.svg" alt="stylelint logo" />
+              </div>
             </div>
+            <a href="https://codepen.io/One0/full/jOmoXRP" class="project__img"
+              ><img src="img/rqm.png" alt="museum" class="project__img"
+            /></a>
           </div>
         </div>
       </section>
