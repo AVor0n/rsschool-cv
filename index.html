@@ -1,347 +1,389 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voronin Andrey CV</title>
+    <link rel="icon" href="img/fav-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Voronin Andrey CV</title>
-  <link rel="icon" href="img/fav-icon.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body class="body">
+    <header class="header">
+      <div class="header__wrapper wrapper">
+        <h1 class="header__title">Воронин Андрей</h1>
+        <div class="nav__burger-menu"></div>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__link" href="#contacts">Контакты</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#about">О себе</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#education">Образование</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#skills">Навыки</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#projects">Опыт</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body class="body">
-  <header class="header">
-    <div class="header__wrapper wrapper">
-      <h1 class="header__title">Воронин Андрей</h1>
-      <div class="nav__burger-menu"></div>
-      <nav class="header__nav nav">
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a class="nav__link" href="#contacts">Контакты</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="nav__link" href="#about">О себе</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="nav__link" href="#education">Образование</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="nav__link" href="#skills">Навыки</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="nav__link" href="#projects">Опыт</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <main>
+      <section class="section contacts wrapper" id="contacts">
+        <div class="section__content contacts__container">
+          <img class="contacts__avatar" src="img/ava.png" alt="моё фото" />
+          <div>
+            <h2 class="contacts__title">Контакты</h2>
+            <ul class="contacts__list">
+              <li class="contacts__list-item">
+                <a class="contacts__link" href="https://t.me/AVor0n">
+                  <i class="fab fa-telegram"></i>
+                  <b>Телеграм: </b><span class="contacts__value">@AVor0n</span></a
+                >
+              </li>
+              <li class="contacts__list-item">
+                <a class="contacts__link" href="https://vk.com/avor0n">
+                  <i class="fab fa-vk"></i>
+                  <b> ВКонтакте: </b><span class="contacts__value">@AVor0n</span></a
+                >
+              </li>
+              <li class="contacts__list-item">
+                <a class="contacts__link" href="tel:+79377963121">
+                  <i class="fa fa-phone-square"></i>
+                  <b> Тел.: </b><span class="contacts__value">+7 (937) 796-31-21</span></a
+                >
+              </li>
+              <li class="contacts__list-item">
+                <a class="contacts__link" href="mailto:avor0n@yandex.ru">
+                  <i class="fa fa-envelope"></i>
+                  <b> EMail: </b><span class="contacts__value">AVor0n@yandex.com</span></a
+                >
+              </li>
+              <li class="contacts__list-item">
+                <i class="fa fa-globe"></i><b> Локация: </b
+                ><span class="contacts__value">Россия, Оренбург</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-  <main>
-    <section class="section contacts wrapper" id="contacts">
-      <div class="section__content contacts__container">
-        <img class="contacts__avatar" src="img/ava.png" alt="моё фото" />
-        <div>
-          <h2 class="contacts__title">Контакты</h2>
-          <ul class="contacts__list">
-            <li class="contacts__list-item">
-              <a class="contacts__link" href="https://t.me/AVor0n">
-                <i class="fab fa-telegram"></i>
-                <b>Телеграм: </b><span class="contacts__value">@AVor0n</span></a>
+      <section class="section about wrapper" id="about">
+        <h2 class="section__title">О себе</h2>
+        <div class="section__content">
+          <p>Стремлюсь стать фронтенд разработчиком.</p>
+          <p>Нравится изучить новые технологии и программное обеспечение.</p>
+          <p>
+            Люблю творить прекрасное, будь то написание кода или придумывание дизайна для сайта.
+          </p>
+          <p>
+            Увлекаюсь скалолазанием и спелеологией, но рад любому виду активного отдыха и
+            экстремального спорта
+          </p>
+        </div>
+      </section>
+
+      <section class="section education wrapper" id="education">
+        <h2 class="section__title">Образование</h2>
+        <div class="section__content">
+          <ul class="education__list">
+            <li class="education__list-item">
+              <b class="education__period">2019<wbr />-<wbr />2021</b>
+              <i class="fa fa-graduation-cap"></i>
+              <span class="education__text">
+                Самарский национальный исследовательский университет <br />
+                Биотехнические системы и технологии
+              </span>
             </li>
-            <li class="contacts__list-item">
-              <a class="contacts__link" href="https://vk.com/avor0n">
-                <i class="fab fa-vk"></i>
-                <b> ВКонтакте: </b><span class="contacts__value">@AVor0n</span></a>
+            <li class="education__list-item">
+              <b class="education__period">2016<wbr />-<wbr />2019</b>
+              <i class="fa fa-graduation-cap font-icon--inactive" title="Неоконченное"></i>
+              <span class="education__text">
+                Самарский национальный исследовательский университет <br />
+                Фундаментальная информатика и информационные технологии
+              </span>
             </li>
-            <li class="contacts__list-item">
-              <a class="contacts__link" href="tel:+79377963121">
-                <i class="fa fa-phone-square"></i>
-                <b> Тел.: </b><span class="contacts__value">+7 (937) 796-31-21</span></a>
+          </ul>
+          <h3 class="section__subtitle">Курсы</h3>
+          <ul class="education__list">
+            <li class="education__list-item">
+              <b class="education__period">2021</b>
+              <i class="fa fa-code"></i>
+              <span class="education__text">
+                Rolling Scopes School (2021Q3) / JavaScript/Front-end</span
+              >
             </li>
-            <li class="contacts__list-item">
-              <a class="contacts__link" href="mailto:avor0n@yandex.ru">
-                <i class="fa fa-envelope"></i>
-                <b> EMail: </b><span class="contacts__value">AVor0n@yandex.com</span></a>
+            <li class="education__list-item">
+              <b class="education__period">2021</b>
+              <i class="fab fa-yandex font-icon--inactive" title="Неоконченное"></i>
+              <span class="education__text"> Яндекс / Школа разработчиков интерфейсов</span>
             </li>
-            <li class="contacts__list-item">
-              <i class="fa fa-globe"></i><b> Локация: </b><span class="contacts__value">Россия, Оренбург</span>
+            <li class="education__list-item">
+              <b class="education__period">2021</b>
+              <i class="fab fa-free-code-camp"></i>
+              <a
+                class="education__text"
+                href="https://www.freecodecamp.org/certification/avor0n/responsive-web-design"
+              >
+                FreeCodeCamp / Responsive Web Design
+              </a>
+            </li>
+            <li class="education__list-item">
+              <b class="education__period">2021</b>
+              <i class="fab fa-free-code-camp"></i>
+              <a
+                class="education__text"
+                href="https://www.freecodecamp.org/certification/avor0n/javascript-algorithms-and-data-structures"
+              >
+                FreeCodeCamp / JavaScript Algorithms and Data Structures
+              </a>
             </li>
           </ul>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section about wrapper" id="about">
-      <h2 class="section__title">О себе</h2>
-      <div class="section__content">
-        <p>Стремлюсь стать фронтенд разработчиком.</p>
-        <p>Нравится изучить новые технологии и программное обеспечение.</p>
-        <p>
-          Люблю творить прекрасное, будь то написание кода или придумывание дизайна для сайта.
-        </p>
-        <p>
-          Увлекаюсь скалолазанием и спелеологией, но рад любому виду активного отдыха и
-          экстремального спорта
-        </p>
-      </div>
-    </section>
+      <section class="section skills wrapper" id="skills">
+        <h2 class="section__title">Навыки</h2>
+        <div class="section__content">
+          <h3 class="section__subtitle">Технологии, с которыми имел дело:</h3>
+          <ul class="skills__list">
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-html.svg" alt="html logo" />
+              <span> HTML5</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-css.svg" alt="css logo" />
+              <span> CSS3</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-js.svg" alt="js logo" />
+              <span> JavaScript</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-ts.svg" alt="typescript logo" />
+              <span> TypeScript</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-webpack.svg" alt="webpack logo" />
+              <span> Webpack</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-react.svg" alt="react logo" />
+              <span> React</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-git.svg" alt="git logo" />
+              <span> Git</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-sass.svg" alt="sass logo" />
+              <span> Sass</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-postcss.svg" alt="postcss logo" />
+              <span> PostCSS</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-csharp.svg" alt="c sharp logo" />
+              <span> C#</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-vite.svg" alt="vite logo" />
+              <span> Vite</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-nodejs.svg" alt="nodejs logo" />
+              <span> NodeJS</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-prettier.svg" alt="prettier logo" />
+              <span> Prettier</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-eslint.svg" alt="eslint logo" />
+              <span> ESlint</span>
+            </li>
+            <li class="skills__list-item">
+              <img class="skill__logo" src="./img/logo-stylelint.svg" alt="stylelint logo" />
+              <span> Stylelint</span>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-    <section class="section education wrapper" id="education">
-      <h2 class="section__title">Образование</h2>
-      <div class="section__content">
-        <ul class="education__list">
-          <li class="education__list-item">
-            <b class="education__period">2019<wbr />-<wbr />2021</b>
-            <i class="fa fa-graduation-cap"></i>
-            <span class="education__text">
-              Самарский национальный исследовательский университет <br />
-              Биотехнические системы и технологии
-            </span>
-          </li>
-          <li class="education__list-item">
-            <b class="education__period">2016<wbr />-<wbr />2019</b>
-            <i class="fa fa-graduation-cap font-icon--inactive" title="Неоконченное"></i>
-            <span class="education__text">
-              Самарский национальный исследовательский университет <br />
-              Фундаментальная информатика и информационные технологии
-            </span>
-          </li>
-        </ul>
-        <h3 class="section__subtitle">Курсы</h3>
-        <ul class="education__list">
-          <li class="education__list-item">
-            <b class="education__period">2021</b>
-            <i class="fa fa-code"></i>
-            <span class="education__text">
-              Rolling Scopes School (2021Q3) / JavaScript/Front-end</span>
-          </li>
-          <li class="education__list-item">
-            <b class="education__period">2021</b>
-            <i class="fab fa-yandex font-icon--inactive" title="Неоконченное"></i>
-            <span class="education__text"> Яндекс / Школа разработчиков интерфейсов</span>
-          </li>
-          <li class="education__list-item">
-            <b class="education__period">2021</b>
-            <i class="fab fa-free-code-camp"></i>
-            <a class="education__text" href="https://www.freecodecamp.org/certification/avor0n/responsive-web-design">
-              FreeCodeCamp / Responsive Web Design
+      <section class="section projects wrapper" id="projects">
+        <h2 class="section__title">Опыт</h2>
+        <div class="section__content">
+          <div class="project__container">
+            <a href="https://github.com/AVor0n/pomodoro-timer" target="_black">
+              <h4 class="project__title">Новогодняя игра "Наряди ёлку"</h4>
             </a>
-          </li>
-          <li class="education__list-item">
-            <b class="education__period">2021</b>
-            <i class="fab fa-free-code-camp"></i>
-            <a class="education__text"
-              href="https://www.freecodecamp.org/certification/avor0n/javascript-algorithms-and-data-structures">
-              FreeCodeCamp / JavaScript Algorithms and Data Structures
+            <p class="project__descr">
+              Из множества игрушек можно выбрать избранные и повесить на ёлку с помощью drag-n-drop.
+              <br />Реализованы различные фильтры для игрушек. <br />Можно добавить мигающую
+              гирлянду, включить снег и музыку, сохранить и воссстановить состояние приложение
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-html.svg" alt="html logo" />
+                <img class="skill__logo" src="./img/logo-css.svg" alt="css logo" />
+                <img class="skill__logo" src="./img/logo-ts.svg" alt="typescript logo" />
+                <img class="skill__logo" src="./img/logo-webpack.svg" alt="webpack logo" />
+              </div>
+            </div>
+            <a class="project__img" href="https://avoron-christmas-task.netlify.app/"
+              ><img src="img/christmas.png" alt="" class="project__img"
+            /></a>
+          </div>
+        </div>
+        <div class="section__content">
+          <div class="project__container">
+            <a href="https://github.com/AVor0n/pomodoro-timer" target="_black">
+              <h4 class="project__title">Таймер "Помодоро"</h4>
             </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section skills wrapper" id="skills">
-      <h2 class="section__title">Навыки</h2>
-      <div class="section__content">
-        <h3 class="section__subtitle">Технологии, с которыми имел дело:</h3>
-        <ul class="skills__list">
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-html.svg" alt="html logo" />
-            <span> HTML5</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-css.svg" alt="css logo" />
-            <span> CSS3</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-js.svg" alt="js logo" />
-            <span> JavaScript</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-ts.svg" alt="typescript logo" />
-            <span> TypeScript</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-webpack.svg" alt="webpack logo" />
-            <span> Webpack</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-react.svg" alt="react logo" />
-            <span> React</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-git.svg" alt="git logo" />
-            <span> Git</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-sass.svg" alt="sass logo" />
-            <span> Sass</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-postcss.svg" alt="postcss logo" />
-            <span> PostCSS</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-csharp.svg" alt="c sharp logo" />
-            <span> C#</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-vite.svg" alt="vite logo" />
-            <span> Vite</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-nodejs.svg" alt="nodejs logo" />
-            <span> NodeJS</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-prettier.svg" alt="prettier logo" />
-            <span> Prettier</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-eslint.svg" alt="eslint logo" />
-            <span> ESlint</span>
-          </li>
-          <li class="skills__list-item">
-            <img class="skill__logo" src="./img/logo-stylelint.svg" alt="stylelint logo" />
-            <span> Stylelint</span>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section projects wrapper" id="projects">
-      <h2 class="section__title">Опыт</h2>
-      <div class="section__content">
-        <div class="project__container">
-          <a href="https://github.com/AVor0n/pomodoro-timer" target="_black">
-            <h4 class="project__title">Помидорковый таймер</h4>
-          </a>
-          <p class="project__descr">
-            Таймер, работающий по
-            <a href="https://ru.wikipedia.org/wiki/Метод_помидора" class="">методу помидора.</a>
-            <br />Отсчитывает время работы, после чего переключается и отсчитывает время перерыва.
-            <br />Оба интервала настраиваются.
-          </p>
-          <div class="project__tech">
-            <p class="project__tech-text">Используемые технологии:</p>
-            <div class="project__tech-icons">
-              <img class="skill__logo" src="./img/logo-html.svg" alt="stylelint logo" />
-              <img class="skill__logo" src="./img/logo-css.svg" alt="stylelint logo" />
-              <img class="skill__logo" src="./img/logo-ts.svg" alt="stylelint logo" />
-              <img class="skill__logo" src="./img/logo-react.svg" alt="stylelint logo" />
-              <img class="skill__logo" src="./img/logo-vite.svg" alt="stylelint logo" />
+            <p class="project__descr">
+              Таймер, работающий по
+              <a href="https://ru.wikipedia.org/wiki/Метод_помидора" class="">методу помидора.</a>
+              <br />Отсчитывает время работы, после чего переключается и отсчитывает время перерыва.
+              <br />Оба интервала настраиваются.
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-html.svg" alt="html logo" />
+                <img class="skill__logo" src="./img/logo-css.svg" alt="css logo" />
+                <img class="skill__logo" src="./img/logo-ts.svg" alt="ts logo" />
+                <img class="skill__logo" src="./img/logo-react.svg" alt="react logo" />
+                <img class="skill__logo" src="./img/logo-vite.svg" alt="vite logo" />
+              </div>
             </div>
+            <a class="project__img" href="https://avor0n.github.io/pomodoro-timer/react/"
+              ><img src="img/pomodoro-timer.png" alt="" class="project__img"
+            /></a>
           </div>
-          <a class="project__img" href="https://avor0n.github.io/pomodoro-timer/react/"><img
-              src="img/pomodoro-timer.png" alt="museum" class="project__img" /></a>
         </div>
-      </div>
-      <div class="section__content">
-        <div class="project__container">
-          <a href="https://github.com/AVor0n/ciphering-cli-tool" target="_blank">
-            <h4 class="project__title">Консольный шифровальщик</h4>
-          </a>
-          <p class="project__descr">
-            Консольная утилита шифрующая/дешифрующая текст.<br />Ввод\вывод из файла или через
-            консоль.<br />Шифры: Цезаря, ROT-8, Атбаш.
-          </p>
-          <div class="project__tech">
-            <p class="project__tech-text">Используемые технологии:</p>
-            <div class="project__tech-icons">
-              <img class="skill__logo" src="./img/logo-js.svg" alt="stylelint logo" />
-              <img class="skill__logo" src="./img/logo-nodejs.svg" alt="stylelint logo" />
+        <div class="section__content">
+          <div class="project__container">
+            <a href="https://github.com/AVor0n/ciphering-cli-tool" target="_blank">
+              <h4 class="project__title">Консольный шифровальщик</h4>
+            </a>
+            <p class="project__descr">
+              Консольная утилита шифрующая/дешифрующая текст.<br />Ввод\вывод из файла или через
+              консоль.<br />Шифры: Цезаря, ROT-8, Атбаш.
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-js.svg" alt="javascript logo" />
+                <img class="skill__logo" src="./img/logo-nodejs.svg" alt="nodejs logo" />
+              </div>
             </div>
+            <img src="img/ciphering-CLI-tool.png" alt="" class="project__img" />
           </div>
-          <img src="img/ciphering-CLI-tool.png" alt="museum" class="project__img" />
         </div>
-      </div>
-      <div class="section__content">
-        <div class="project__container">
-          <a href="https://github.com/AVor0n/virtual-piano" target="_blank">
-            <h4 class="project__title">Виртуальное пианино</h4>
-          </a>
-          <p class="project__descr">
-            Пианино.<br />
-            Управляется как мышью, так и клавиатурой.<br />
-            Полноэкранный режим.<br />
-            Переключение между отображением нот и букв.
-          </p>
-          <div class="project__tech">
-            <p class="project__tech-text">Используемые технологии:</p>
-            <div class="project__tech-icons">
-              <img class="skill__logo" src="./img/logo-html.svg" alt="stylelint logo" />
-              <img class="skill__logo" src="./img/logo-css.svg" alt="stylelint logo" />
-              <img class="skill__logo" src="./img/logo-js.svg" alt="stylelint logo" />
+        <div class="section__content">
+          <div class="project__container">
+            <a href="https://github.com/AVor0n/virtual-piano" target="_blank">
+              <h4 class="project__title">Виртуальное пианино</h4>
+            </a>
+            <p class="project__descr">
+              Пианино.<br />
+              Управляется как мышью, так и клавиатурой.<br />
+              Полноэкранный режим.<br />
+              Переключение между отображением нот и букв.
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-html.svg" alt="html logo" />
+                <img class="skill__logo" src="./img/logo-css.svg" alt="css logo" />
+                <img class="skill__logo" src="./img/logo-js.svg" alt="javascriptlogo" />
+              </div>
             </div>
+            <a href="https://avor0n.github.io/virtual-piano/" class="project__img"
+              ><img src="img/vp.png" alt="" class="project__img" />
+            </a>
           </div>
-          <a href="https://avor0n.github.io/virtual-piano/" class="project__img"><img src="img/vp.png" alt="museum"
-              class="project__img" />
-          </a>
         </div>
-      </div>
-      <div class="section__content">
-        <div class="project__container">
-          <a href="https://github.com/AVor0n/cssMemSlider/tree/gh-pages" target="_blank">
-            <h4 class="project__title">Слайдер на CSS</h4>
-          </a>
-          <p class="project__descr">
-            Задание на творческое мышление.<br />
-            Адаптивный слайдер, реализованный без исполльзования JS.<br />
-            Только HTML и CSS.<br />
-          </p>
-          <div class="project__tech">
-            <p class="project__tech-text">Используемые технологии:</p>
-            <div class="project__tech-icons">
-              <img class="skill__logo" src="./img/logo-html.svg" alt="stylelint logo" />
-              <img class="skill__logo" src="./img/logo-css.svg" alt="stylelint logo" />
+        <div class="section__content">
+          <div class="project__container">
+            <a href="https://github.com/AVor0n/cssMemSlider/tree/gh-pages" target="_blank">
+              <h4 class="project__title">Слайдер на CSS</h4>
+            </a>
+            <p class="project__descr">
+              Задание на творческое мышление.<br />
+              Адаптивный слайдер, реализованный без исполльзования JS.<br />
+              Только HTML и CSS.<br />
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-html.svg" alt="html logo" />
+                <img class="skill__logo" src="./img/logo-css.svg" alt="css logo" />
+              </div>
             </div>
+            <a href="https://avor0n.github.io/cssMemSlider/cssMemSlider/" class="project__img"
+              ><img src="img/cssSlider.png" alt="" class="project__img" />
+            </a>
           </div>
-          <a href="https://avor0n.github.io/cssMemSlider/cssMemSlider/" class="project__img"><img
-              src="img/cssSlider.png" alt="museum" class="project__img" />
-          </a>
         </div>
-      </div>
 
-      <div class="section__content">
-        <div class="project__container">
-          <a href="https://codepen.io/One0/pen/jOmoXRP" target="_blank">
-            <h4 class="project__title">Генератор цитат</h4>
-          </a>
-          <p class="project__descr">
-            Работа со сторонним API, генерирующим цитаты на различные темы.
-          </p>
-          <div class="project__tech">
-            <p class="project__tech-text">Используемые технологии:</p>
-            <div class="project__tech-icons">
-              <img class="skill__logo" src="./img/logo-html.svg" alt="stylelint logo" />
-              <img class="skill__logo" src="./img/logo-css.svg" alt="stylelint logo" />
-              <img class="skill__logo" src="./img/logo-js.svg" alt="stylelint logo" />
+        <div class="section__content">
+          <div class="project__container">
+            <a href="https://codepen.io/One0/pen/jOmoXRP" target="_blank">
+              <h4 class="project__title">Генератор цитат</h4>
+            </a>
+            <p class="project__descr">
+              Работа со сторонним API, генерирующим цитаты на различные темы.
+            </p>
+            <div class="project__tech">
+              <p class="project__tech-text">Используемые технологии:</p>
+              <div class="project__tech-icons">
+                <img class="skill__logo" src="./img/logo-html.svg" alt="html logo" />
+                <img class="skill__logo" src="./img/logo-css.svg" alt="css logo" />
+                <img class="skill__logo" src="./img/logo-js.svg" alt="javascript logo" />
+              </div>
             </div>
+            <a href="https://codepen.io/One0/full/jOmoXRP" class="project__img"
+              ><img src="img/rqm.png" alt="" class="project__img"
+            /></a>
           </div>
-          <a href="https://codepen.io/One0/full/jOmoXRP" class="project__img"><img src="img/rqm.png" alt="museum"
-              class="project__img" /></a>
         </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container wrapper">
+        <a href="https://github.com/AVor0n/">
+          <img class="footer__logo" src="img/github.png" alt="logo Git" />
+        </a>
+        <time datetime="2021-09-21">2021</time>
+        <a href="https://rs.school/js/">
+          <img
+            class="footer__logo"
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="logo RSS"
+          />
+        </a>
       </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer__container wrapper">
-      <a href="https://github.com/AVor0n/">
-        <img class="footer__logo" src="img/github.png" alt="logo Git" />
-      </a>
-      <time datetime="2021-09-21">2021</time>
-      <a href="https://rs.school/js/">
-        <img class="footer__logo" src="https://rs.school/images/rs_school_js.svg" alt="logo RSS" />
-      </a>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
-
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -8,7 +8,7 @@ function showMenu() {
     body.classList.add('body-lock')
 }
 
-function hadeMenu() {
+function hideMenu() {
     menu.style.top = '-100vh';
     body.classList.remove('body-lock')
 }
@@ -17,7 +17,7 @@ menuBtn.addEventListener('click', showMenu)
 
 for (const link of links) {
     link.addEventListener('click', () => {
-        hadeMenu();
+        hideMenu();
         const id = link.getAttribute('href').slice(1);
         document.getElementById(id).scrollIntoView({
             behavior: 'smooth',
