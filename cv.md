@@ -40,4 +40,4 @@ Sample code will appear here someday.
 
 ## English level:
 
-Probably **A1**, but it's not certain.
+Probably **A2**, but it's not certain.
