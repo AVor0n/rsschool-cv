@@ -24,7 +24,6 @@
 - online courses:
   - [freecodecamp](https://www.freecodecamp.org/avor0n)
   - [hexlet](https://ru.hexlet.io/u/avor0n)
-  - [htmlacademy](https://htmlacademy.ru/profile/id1747985)
   - [stepic](https://stepik.org/users/107936677)
 
 ## Work experience
