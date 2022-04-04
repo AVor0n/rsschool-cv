@@ -1,0 +1,42 @@
+# Voronin Andrey
+
+## Contacts
+
+- Tel.: +7 (846) 937 796-31-21
+- E-mail: AVor0n@ya.ru
+- Telegram: [@AVor0n](https://t.me/AVor0n)
+
+## About me
+
+> I am a student of the Samara State Aerospace University, Faculty of Electronics and Instrumentation.
+
+## Skills
+
+- HTML5
+- CSS3
+- JavaScript
+- C#
+- Git
+
+## Education
+
+- 2016-2021 SSAU
+- online courses:
+  - [freecodecamp](https://www.freecodecamp.org/avor0n)
+  - [hexlet](https://ru.hexlet.io/u/avor0n)
+  - [stepic](https://stepik.org/users/107936677)
+
+## Work experience
+
+- [codewars](https://www.codewars.com/users/AVor0n-rss)
+- [github](https://github.com/AVor0n)
+
+## Sample code
+
+```
+Sample code will appear here someday.
+```
+
+## English level:
+
+Probably **A2**, but it's not certain.
